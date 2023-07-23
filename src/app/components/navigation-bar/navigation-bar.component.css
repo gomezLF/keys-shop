@@ -1,0 +1,22 @@
+nav .container-fluid .navbar-brand .img-web-logo {
+    width: 124px;
+    height: 48px;
+}
+
+nav .container-fluid .vetical-divider{
+    border-left: 2px solid white;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav .navbar-nav a{
+    color: white !important;
+}
+
+@media (max-width: 575.98px) {
+    nav .container-fluid .vetical-divider{
+        border-left: 0px solid white;
+        
+    }
+}
