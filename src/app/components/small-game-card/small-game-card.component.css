@@ -1,0 +1,130 @@
+p, span {
+    text-transform: uppercase;
+}
+
+.card {
+    border: 0px solid white;
+    background-color: transparent;
+    --bs-card-spacer-y: 0rem;
+
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.tooltip-name {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: fit-content;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button:hover .tooltip-name {
+    visibility: visible;
+}
+
+.body-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.body-card-container .card-image-container {
+    margin-right: 10px;
+}
+
+.body-card-container .card-image-container .card-img-top {
+    height: 4rem !important;
+    width: 6rem!important;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    margin: 0px;
+    padding: 0px;
+
+    border: 0px solid white;
+}
+
+.body-card-container .card-image-container .card-img-top img {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    object-fit: contain;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-card-container .information-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-card-container .information-container .game-name-container {
+    margin: 0px;
+    padding-top: 0px
+}
+
+.body-card-container .information-container .game-name-container .game-name {
+    text-align: start;
+    color: white;
+    font-size: 14px;
+    
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow:ellipsis; 
+    width: 200px; 
+}
+
+.body-card-container .information-container .price-information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+    width: fit-content;
+    height: fit-content !important;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-card-container .information-container .price-information-container .discount-game {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+    background-color: #ff851b;
+    border-radius: 5px;
+    padding: 5px;
+
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.body-card-container .information-container .price-game-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.body-card-container .information-container .price-game-container p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.body-card-container .information-container .price-game-container .older-price {
+    text-decoration-line: line-through;
+    margin-right: 10px;
+}
