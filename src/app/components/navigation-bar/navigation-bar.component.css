@@ -21,6 +21,11 @@ nav .container-fluid .vetical-divider{
     flex-direction: row;
 }
 
+.container-dropdown .container-dropdown-card {
+    margin: 20px;
+    width: 350px !important;
+}
+
 button {
     background-color: transparent;
     border-color: transparent;
@@ -54,7 +59,15 @@ button {
         margin-right: 10px;
     }
 
+    .container-dropdown {
+        flex-direction: column;
+    }
+
     .container-dropdown-card {
+        display: none;
+    }
+
+    .game-card {
         display: none;
     }
 
