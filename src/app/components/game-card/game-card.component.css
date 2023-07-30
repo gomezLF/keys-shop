@@ -40,7 +40,7 @@ p {
 .card-body .score-game {
     text-align: start;
     color: white;
-    background-color: #2a2a2a;
+    background-color: #474c67;
     font-size: 11px;
     border-radius: 5px;
 
@@ -70,7 +70,7 @@ p {
     color: white;
     font-size: 12px;
 
-    background-color: #ff4057;
+    background-color: #ff851b;
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
