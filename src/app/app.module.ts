@@ -8,6 +8,7 @@ import { GameCardComponent } from './components/game-card/game-card.component';
 import { SmallGameCardComponent } from './components/small-game-card/small-game-card.component';
 import { GameCarouselComponent } from './components/game-carousel/game-carousel.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     GameCardComponent,
     SmallGameCardComponent,
     GameCarouselComponent,
-    HomePageComponent
+    HomePageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
