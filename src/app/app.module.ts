@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 import { GameCardComponent } from './components/game-card/game-card.component';
 import { SmallGameCardComponent } from './components/small-game-card/small-game-card.component';
+import { GameCarouselComponent } from './components/game-carousel/game-carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     GameCardComponent,
-    SmallGameCardComponent
+    SmallGameCardComponent,
+    GameCarouselComponent
   ],
   imports: [
     BrowserModule,
