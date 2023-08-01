@@ -1,0 +1,9 @@
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 15px;
+}
