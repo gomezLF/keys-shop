@@ -30,7 +30,7 @@ button:hover .tooltip-name {
 .body-card-container {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .body-card-container .card-image-container {
@@ -87,7 +87,7 @@ button:hover .tooltip-name {
 .body-card-container .information-container .price-information-container {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     
     width: fit-content;
     height: fit-content !important;
@@ -112,7 +112,7 @@ button:hover .tooltip-name {
 .body-card-container .information-container .price-game-container {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
